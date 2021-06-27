@@ -2,7 +2,6 @@ package com.cenibee.inflearn.springtutorial.service;
 
 import com.cenibee.inflearn.springtutorial.domain.Member;
 import com.cenibee.inflearn.springtutorial.repository.MemberRepository;
-import com.cenibee.inflearn.springtutorial.repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
