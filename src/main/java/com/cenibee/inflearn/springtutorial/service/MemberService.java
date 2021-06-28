@@ -2,10 +2,12 @@ package com.cenibee.inflearn.springtutorial.service;
 
 import com.cenibee.inflearn.springtutorial.domain.Member;
 import com.cenibee.inflearn.springtutorial.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
