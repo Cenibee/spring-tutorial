@@ -50,3 +50,7 @@
   - 스프링 JdbcTemplate
   - JPA
   - 스프링 데이터 JPA
+  
+- AOP
+  - AOP 가 필요한 상황
+  - AOP 적용

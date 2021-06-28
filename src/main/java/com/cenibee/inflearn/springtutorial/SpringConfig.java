@@ -1,5 +1,6 @@
 package com.cenibee.inflearn.springtutorial;
 
+import com.cenibee.inflearn.springtutorial.aop.TimeTraceAop;
 import com.cenibee.inflearn.springtutorial.repository.JpaMemberRepository;
 import com.cenibee.inflearn.springtutorial.repository.MemberRepository;
 import com.cenibee.inflearn.springtutorial.service.MemberService;
@@ -21,6 +22,11 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
+//    @Bean
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
 
 //    @Bean
 //    public MemberRepository memberRepository() {
